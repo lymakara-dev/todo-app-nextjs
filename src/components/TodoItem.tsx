@@ -1,11 +1,5 @@
+import { Todo } from "@/lib/todoStore";
 import React from "react";
-
-interface Todo {
-  id: string;
-  todo: string;
-  isCompleted: boolean;
-  createdAt: string;
-}
 
 interface TodoItemProps {
   todo: Todo;
@@ -24,7 +18,7 @@ const TodoItem: React.FC<TodoItemProps> = ({
     <div className="flex justify-between items-center p-2 border-b hover:bg-gray-100 group">
       <span
         className={
-          todo.isCompleted ? "line-through text-gray-500" : "text-black"
+          todo.is_completed ? "line-through text-gray-500" : "text-black"
         }
       >
         {todo.todo}
@@ -34,7 +28,7 @@ const TodoItem: React.FC<TodoItemProps> = ({
           onClick={() => onToggleComplete(todo.id)}
           className="text-sm text-blue-600"
         >
-          {todo.isCompleted ? "Mark Incomplete" : "Mark Complete"}
+          {todo.is_completed ? "Mark Incomplete" : "Mark Complete"}
         </button>
         <button onClick={() => onEdit(todo)} className="text-sm text-green-600">
           Edit

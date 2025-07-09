@@ -1,4 +1,4 @@
-import { Todo, todos } from "@/app/lib/todoStore";
+import { Todo, todos } from "@/lib/todoStore";
 import { NextApiRequest, NextApiResponse } from "next";
 
 export default function handler(req: NextApiRequest, res: NextApiResponse) {

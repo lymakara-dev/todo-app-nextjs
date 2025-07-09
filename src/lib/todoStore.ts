@@ -1,7 +1,8 @@
 export interface Todo {
   id: string;
   todo: string;
-  isCompleted: boolean;
+  isCompleted: boolean; // for local api
+  is_completed: boolean; // for supabase api
   createdAt: string;
 }
 
