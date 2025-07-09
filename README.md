@@ -22,7 +22,7 @@ A modern Todo List app built with **Next.js App Router**, **TypeScript**, and **
 
 ## 🌐 Live Demo
 
-> Coming soon — can be deployed to [Vercel](https://vercel.com/) with 1 click.
+> https://todo-app-nextjs-liard-five.vercel.app/
 
 ---
 
@@ -45,4 +45,7 @@ A modern Todo List app built with **Next.js App Router**, **TypeScript**, and **
 ```bash
 git clone https://github.com/yourusername/vtech-todo.git
 cd vtech-todo
+cp .env.example .env
+npm i
+npm run dev
 ```

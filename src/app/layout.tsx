@@ -29,11 +29,11 @@ export const metadata: Metadata = {
   openGraph: {
     title: "VTech Todo App",
     description: "Realtime-enabled Todo App using Supabase and Next.js.",
-    url: "https://your-vercel-url.vercel.app",
+    url: "https://todo-app-nextjs-liard-five.vercel.app",
     siteName: "VTech Todo App",
     images: [
       {
-        url: "https://your-vercel-url.vercel.app/og-image.png",
+        url: "https://todo-app-nextjs-liard-five.vercel.app/og-image.png",
         width: 1200,
         height: 630,
         alt: "VTech Todo App Preview",
