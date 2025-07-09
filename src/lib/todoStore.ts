@@ -6,4 +6,4 @@ export interface Todo {
   createdAt: string;
 }
 
-export let todos: Todo[] = [];
+export const todos: Todo[] = [];
